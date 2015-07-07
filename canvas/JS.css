@@ -1,0 +1,15 @@
+/*CSS document*/
+* {margin:0; padding:0}
+li, ul, img {
+	list-style:none; border:none;
+}
+
+#canvas{
+	background:skyblue; margin:0px auto; display:block;
+}
+h2, p {
+	text-align:center; line-height: 200%;
+}
+button {
+	margin-top: 20px; margin-left: 48%;
+}
