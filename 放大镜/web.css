@@ -1,0 +1,26 @@
+/*CSS document*/
+
+* {margin:0; padding:0;}
+li,ul {list-style: none;}
+img {width:100%;}
+#picShow {
+	width:470px; margin:10px 0px 0px 10px; position:relative; left:0px; top:0px; border:1px solid red;
+}
+.list {
+	width:470px; margin-left:10px; margin-top:10px;
+}
+.list li {
+	width:106px; height:60px; float:left; margin:0 5px;
+}
+.list li:hover {
+	border:1px solid red; margin:-1px 4px; cursor:pointer;
+}
+#wrap {
+	float:left;
+}
+#bigShow {
+	width:200px; height:200px; background:#cccccc; float:left; margin:10px 0 0 20px; border:1px solid red;
+}
+#rect {
+	position:absolute; top:0px; left:0px; background:#fafafa; opacity:0.3; display:none;
+}
